@@ -9,10 +9,24 @@ See WordPress Startup Activities
   
   ```php
   <?php 
-  
+
+    $today = date('Ymd');
+
+    // Custom Query with Ordering and Sorting
     $pastEvents = new WP_Query(
       array(
-        'post_type' => 'event'
+        'post_type'      => 'event',
+        'meta_key'       => 'event_date',
+        'orderby'        => 'meta_value_num', // formerly 'post_date', 'rand', meta_value !event_date
+        'order'          => 'ASC',
+        'meta_query'     => array( // eliminate non-adherents to sub-query
+          array(
+            'key' => 'event_date',
+            'compare' => '<',
+            'value' => $today,
+            'type' => 'numeric'
+          )
+        )
       )
     );
 
