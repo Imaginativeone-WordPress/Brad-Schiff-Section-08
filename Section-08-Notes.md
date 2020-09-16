@@ -48,6 +48,8 @@ See WordPress Startup Activities
     // Custom Query with Ordering and Sorting
     $pastEvents = new WP_Query(
       array(
+        'posts_per_page' => 1,                // This doesn't work for pagination, only works for default queries. This is a custom query.
+                                              // paginate_links() is working with the default query
         'post_type'      => 'event',
         'meta_key'       => 'event_date',
         'orderby'        => 'meta_value_num', // formerly 'post_date', 'rand', meta_value !event_date
@@ -93,5 +95,9 @@ See WordPress Startup Activities
   ?>
 
   <!-- Pagination -->
-  <?php echo paginate_links(); ?>
+  <?php echo paginate_links(
+    array(
+      'total' => $pastEvents->max_num_pages
+    )
+  ); ?>
   ```
