@@ -6,6 +6,14 @@ See WordPress Startup Activities
       - Posts
       - Pages (Posts with the Type of "Page")
   ![Custom Post Type](https://user-images.githubusercontent.com/1640067/93379941-8f05e880-f82c-11ea-90c2-e7fda1363d53.png)
+    
+  - [ ] 30. Displaying Custom Post Types 20min
+  - [ ] 31. Quick Timeout: Misc Updates 14min
+  - [ ] 32. Custom Fields 19min
+  - [ ] 33. A Note About the WordPress Post Edit Screen 1min
+  - [ ] 34. Ordering (Sorting) Custom Queries 14min
+  - [ ] 35. Manipulating Default URL Based Queries 18min
+  - [ ] 36. Past Events Page (Custom Query Pagination) 19min
   
   ```php
   <?php 
@@ -62,11 +70,3 @@ See WordPress Startup Activities
   <!-- Pagination -->
   <?php echo paginate_links(); ?>
   ```
-  
-  - [ ] 30. Displaying Custom Post Types 20min
-  - [ ] 31. Quick Timeout: Misc Updates 14min
-  - [ ] 32. Custom Fields 19min
-  - [ ] 33. A Note About the WordPress Post Edit Screen 1min
-  - [ ] 34. Ordering (Sorting) Custom Queries 14min
-  - [ ] 35. Manipulating Default URL Based Queries 18min
-  - [ ] 36. Past Events Page (Custom Query Pagination) 19min
