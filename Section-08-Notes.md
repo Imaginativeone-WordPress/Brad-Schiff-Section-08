@@ -8,7 +8,7 @@ See WordPress Startup Activities
   ![Custom Post Type](https://user-images.githubusercontent.com/1640067/93379941-8f05e880-f82c-11ea-90c2-e7fda1363d53.png)
   
   ```php
-  <$php 
+  <?php 
   
     $pastEvents = new WP_Query(
       array(
