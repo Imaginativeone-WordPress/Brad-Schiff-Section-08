@@ -1,3 +1,5 @@
+See WordPress Startup Activities
+
 - [ ] Section 8: Events Post Type 7/8 | 2hr 4min
   - [ ] 29. Custom Post Types 20min
     - A
