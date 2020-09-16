@@ -32,6 +32,7 @@ See WordPress Startup Activities
         add_action('init', 'university_post_types');
       ?>
       ```
+
   - [ ] 30. Displaying Custom Post Types 20min
   - [ ] 31. Quick Timeout: Misc Updates 14min
   - [ ] 32. Custom Fields 19min
@@ -101,4 +102,12 @@ See WordPress Startup Activities
       'total' => $pastEvents->max_num_pages
     )
   ); ?>
+  ```
+  **archive-events.php**
+  ```php
+  <hr class="section-break">
+
+  <p>Looking for a recap of past events?
+    <a href="<?php echo site_url('/past-events') ?>">Check out our past events archive.</a>
+  </p>
   ```
