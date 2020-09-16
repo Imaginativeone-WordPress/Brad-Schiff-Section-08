@@ -5,6 +5,7 @@ See WordPress Startup Activities
     - Regular Post Types
       - Posts
       - Pages (Posts with the Type of "Page")
+  ![Custom Post Type](https://user-images.githubusercontent.com/1640067/93379268-98db1c00-f82b-11ea-9035-45438075154c.png)
   - [ ] 30. Displaying Custom Post Types 20min
   - [ ] 31. Quick Timeout: Misc Updates 14min
   - [ ] 32. Custom Fields 19min
