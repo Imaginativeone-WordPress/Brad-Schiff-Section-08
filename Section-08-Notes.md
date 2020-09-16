@@ -1,5 +1,6 @@
 - [ ] Section 8: Events Post Type 7/8 | 2hr 4min
   - [ ] 29. Custom Post Types 20min
+    - A
   - [ ] 30. Displaying Custom Post Types 20min
   - [ ] 31. Quick Timeout: Misc Updates 14min
   - [ ] 32. Custom Fields 19min
